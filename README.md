@@ -1,10 +1,11 @@
-# AI Image Generator
-지피티 API를 활용한 AI 이미지 플랫폼
+# Banksy
+- 모든 인적 사항이 정체불명인 영국의 아티스트 뱅크시에게 영감을 받아 만들게 된 AI 이미지 생성기
+지피티 API를 활용한 AI 이미지 플랫폼 
 
 ## 1. 목표와 기능
 
 ### 1.1 목표
-AI-image-generator 프로젝트는 사용자가 간편하게 AI를 활용하여 이미지를 생성하고 공유하는 데에 목적이 있습니다.
+Banksy 프로젝트는 그림을 그릴 줄 모르거나 다양한 그림에 대한 아이디어가 필요한 사용자가 간편하게 AI를 활용하여 이미지를 생성하고 공유하는 데에 목적이 있습니다. 
 
 ### 1.2 기능
 - **이미지 생성:** 사용자가 입력한 텍스트 또는 주제를 기반으로 AI를 활용하여 이미지를 생성합니다.
@@ -12,15 +13,20 @@ AI-image-generator 프로젝트는 사용자가 간편하게 AI를 활용하여 
 - **확장 가능성:** 추가적인 AI 모델 및 기능의 통합을 통해 서비스를 확장할 수 있습니다.
 
 ### 1.3 팀 구성
-프로젝트의 성격과 규모에 따라 프론트엔드 개발자, 백엔드 개발자, AI 엔지니어, 디자이너 등으로 팀을 구성할 수 있습니다.
+<table>
+	<tr>
+		<th>진성현</th>
+	</tr>
+ 	<tr>
+		<td><img src="" width="100%"></td>
+	</tr>
+</table>
 
 ## 2. 개발 환경 및 배포 URL
 
 ### 2.1 개발 환경
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js, Express.js
 - **AI 모델:** OpenAI API
-- **데이터베이스:** (선택적으로 추가 가능)
 
 ### 2.2 배포 URL
 - [프로젝트 배포 URL](배포 URL을 입력하세요)
@@ -36,15 +42,22 @@ AI-image-generator 프로젝트는 사용자가 간편하게 AI를 활용하여 
 - [share.image.yourdomain.com]
 
 ## 3. 요구사항 명세와 기능 명세
-상세한 요구사항과 각 기능의 명세를 작성하여 프로젝트의 범위와 기능을 명확히 정의합니다.
+- https://www.mindmeister.com/ 등을 사용하여 모델링 및 요구사항 명세를 시각화 하였습니다.
+
+<img src="logic.png" width="100%">
+
+```mermaid
+flowchart TD
+  A[User Input] -->|Submit| B(Request to OpenAI)
+  B --> C{Response}
+  C -->|Success| D[Display Images]
+  C -->|Error| E[Show Error]
+```
 
 ## 4. 프로젝트 구조와 개발 일정
 
 ### 4.1 프로젝트 구조
-- Frontend 폴더: HTML, CSS, JavaScript 파일들
-- Backend 폴더: Node.js 및 Express.js 서버 파일
-- AI 모델 폴더: OpenAI API 관련 파일
-- (추가적으로 필요한 폴더 및 파일)
+<img src="file.png" width="100%">
 
 ### 4.1 개발 일정(WBS)
 각 단계별로 프로젝트의 일정을 구체적으로 계획하고 마일스톤을 설정합니다.
