@@ -18,7 +18,7 @@ Banksy 프로젝트는 그림을 그릴 줄 모르거나 다양한 그림에 대
 		<th>진성현</th>
 	</tr>
  	<tr>
-		<td><img src="" width="100%"></td>
+		<td><img src="team.jpg" width="100%"></td>
 	</tr>
 </table>
 
