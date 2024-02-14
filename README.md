@@ -59,6 +59,7 @@ Banksy 프로젝트는 그림을 그릴 줄 모르거나 다양한 그림에 대
 <img src="schedule.png" width="100%">
 
 ```mermaid
+gantt
     title Banksy
     dateFormat YY-MM-DD
     section 기획
