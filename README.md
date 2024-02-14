@@ -44,31 +44,32 @@ Banksy 프로젝트는 그림을 그릴 줄 모르거나 다양한 그림에 대
 ## 3. 요구사항 명세와 기능 명세
 - https://www.mindmeister.com/ 등을 사용하여 모델링 및 요구사항 명세를 시각화 하였습니다.
 <img src="logic.png" width="100%">
-```mermaid
-flowchart TD
-  A[User Input] -->|Submit| B(Request to OpenAI)
-  B --> C{Response}
-  C -->|Success| D[Display Images]
-  C -->|Error| E[Show Error]
-```
 
 ## 4. 프로젝트 구조와 개발 일정
 
 ### 4.1 프로젝트 구조
-<img src="file.png" width="100%">
+
+ ┃ ┣ 📂AI-image-generator  
+ ┃ ┣ 📜imdex.html  
+ ┃ ┣ 📜draw.js  
+ ┃ ┣ 📜style.css 
+
 
 ### 4.1 개발 일정(WBS)
+<img src="schedule.png" width="100%">
+
 ```mermaid
     title Banksy
     dateFormat YY-MM-DD
     section 기획
+        WBS 작성   :2023-02-09, 1d
         주제 선정 위한 자료조사 :2023-02-09, 1d
         UI 구상/수정 :2023-02-10, 1d
         최종 주제 선정과 UI 확정 :2023-02-11, 1d
         챗지피티API IMG 기능 확인 :2023-02-12, 1d
         세부사항 추가 구성 :2023-02-13, 1d
     section 디자인
-        리디자인 :2023-02-13, 1d
+        디자인 :2023-02-13, 1d
     section FE
         메인   :2023-02-14, 1d
         배경확정  :2023-02-14, 1d
