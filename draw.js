@@ -1,4 +1,4 @@
-const API_KEY = "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";
+const API_KEY = "";
 const submitIcon = document.querySelector("#submit-icon")
 const inputElement = document.querySelector("input")
 const imageSection = document.querySelector('.images-section')
@@ -19,7 +19,6 @@ const getImages = async () => {
     try {
         const response = await fetch("https://api.openai.com/v1/images/generations", options)
         const data = await response.json()
-        console.log(data);
         
         data?.data.forEach(imageObject => {
             const imageContainer = document.createElement("div")
