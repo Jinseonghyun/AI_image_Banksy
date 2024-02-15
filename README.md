@@ -57,10 +57,11 @@ graph TD
 ## 4. 프로젝트 구조와 개발 일정
 
 ### 4.1 프로젝트 구조
-📦AI-image-generator
- ┣ 📜draw.js
- ┣ 📜index.html
- ┗ 📜style.css
+
+📂AI-image-generator  
+ ┣ 📜draw.js  
+ ┣ 📜index.html  
+ ┣ 📜style.css  
 
  ```mermaid
 graph TD
