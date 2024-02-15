@@ -104,6 +104,8 @@ gantt
 ## 6. 와이어프레임 / UI / BM
 
 ### 6.1 와이어프레임
+카카오 오븐을 사용하여 UI를 설계하였습니다.
+
 <img src="UI.png" width="100%">
 
 ### 6.2 화면 설계
@@ -112,7 +114,7 @@ gantt
 <img src="UI_3.png" width="100%">
 
 ## 7. 데이터베이스 모델링(ERD)
-- 아래 ERD는 머메이드를 사용했습니다.
+
 ```mermaid
 erDiagram
     ENTITY_1 ||--o{ IMAGE : stores
@@ -148,7 +150,6 @@ erDiagram
 ```
 
 ## 8. Architecture
-- 아래 Architecture 설계도는 ChatGPT에게 아키텍처를 설명하고 mermaid로 그려달라 요청한 것입니다.
 
 ```mermaid
 graph TD
