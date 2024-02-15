@@ -36,7 +36,7 @@ Banksy 프로젝트는 그림을 그릴 줄 모르거나 다양한 그림에 대
 
 ### 2.2 배포 URL
 
-- (Banksy)[https://jinseonghyun.github.io/AI_image_generator/]
+- (Banksy)[https://jinseonghyun.github.io/AI_image_Banksy/]
 
 ## 3. 요구사항 명세와 기능 명세
 - https://www.mindmeister.com/ 등을 사용하여 모델링 및 요구사항 명세를 시각화 하였습니다.
