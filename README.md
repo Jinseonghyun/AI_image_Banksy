@@ -25,8 +25,14 @@ Banksy 프로젝트는 그림을 그릴 줄 모르거나 다양한 그림에 대
 ## 2. 개발 환경 및 배포 URL
 
 ### 2.1 개발 환경
+
+- **개발 환경(IDE)** : VSCode
 - **Frontend:** HTML, CSS, JavaScript
-- **AI 모델:** OpenAI API
+- **AI 모델:** OpenAI API DALL·E  
+- **서비스 배포 환경:** GitHub
+
+### 2.1.1 AI 모델 참고자료
+- https://platform.openai.com/docs/guides/images/introduction?context=node
 
 ### 2.2 배포 URL
 
