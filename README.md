@@ -29,20 +29,13 @@ Banksy 프로젝트는 그림을 그릴 줄 모르거나 다양한 그림에 대
 - **AI 모델:** OpenAI API
 
 ### 2.2 배포 URL
-- [프로젝트 배포 URL](배포 URL을 입력하세요)
 
-### 2.3 URL 구조(모놀리식)
-- [배포 URL]/generate-image
-- [배포 URL]/download-image
-- [배포 URL]/share-image
-
-### 2.4 URL 구조(마이크로식)
-- [generate.image.yourdomain.com]
-- [download.image.yourdomain.com]
-- [share.image.yourdomain.com]
+- (Banksy)[https://jinseonghyun.github.io/AI_image_generator/]
 
 ## 3. 요구사항 명세와 기능 명세
 - https://www.mindmeister.com/ 등을 사용하여 모델링 및 요구사항 명세를 시각화 하였습니다.
+
+<img src="Requirements.png" width="100%">
 
 ```mermaid
 graph TD
@@ -64,11 +57,11 @@ graph TD
 ## 4. 프로젝트 구조와 개발 일정
 
 ### 4.1 프로젝트 구조
-
  ┃ ┣ 📂AI-image-generator  
  ┃ ┣ 📜imdex.html  
  ┃ ┣ 📜draw.js  
  ┃ ┣ 📜style.css 
+<img src="Planning.png" width="100%">
 
 
 ### 4.1 개발 일정(WBS)
@@ -105,18 +98,22 @@ gantt
 <img src="UI.png" width="100%">
 
 ### 6.2 화면 설계
-이미지 결과 나오는 화면 캡쳐
 <img src="UI_1.png" width="100%">
 <img src="UI_2.png" width="100%">
+<img src="UI_3.png" width="100%">
 
 ## 7. 데이터베이스 모델링(ERD)
-필요시 데이터베이스를 구축하기 위한 ERD를 작성합니다.
+- 아래 ERD는 머메이드를 사용했습니다.
+<img src="ERD.png" width="100%">
 
 ## 8. Architecture
-프로젝트의 아키텍처를 설명하고 각 구성 요소의 역할을 명시합니다.
+- 아래 Architecture 설계도는 ChatGPT에게 아키텍처를 설명하고 mermaid로 그려달라 요청한 것입니다.
+<img src="Architecture.png" width="100%">
 
 ## 9. 메인 기능
 제가 만든 AI 이미지 제작 서비스는 사용자의 요구사항을 연동된 API를 통해 실시간으로 chatGPT와 통신하면서 사용자가 요구하는 필요조건에 맞추어 IMG 를 생성하는 서비스입니다.
+
+<img src="main.png" width="100%">
 
 ## 10. 에러와 에러 해결
 API를 연동하여 이미지를 생성하고 UI에 업로드 하는 과정에서 에러가 발생하였는데 내가 준 draw.js에 body 에 설정해주었던 n 과 size의 문제였다. 그래서 UI가 감당할 수 있는 값들로 변경 후 결과값이 잘 출력되는 것을 관찰하였다.
