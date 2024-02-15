@@ -58,7 +58,7 @@ graph TD
 
 ### 4.1 프로젝트 구조
 
-📂AI-image-generator  
+📂AI-image-Banksy  
  ┣ 📜draw.js  
  ┣ 📜index.html  
  ┣ 📜style.css  
