@@ -80,7 +80,7 @@ graph TD
     J --> N(기능 확인)
 ```
 
-### 4.1 개발 일정(WBS)
+### 4.2 개발 일정(WBS)
 
 ```mermaid
 gantt
